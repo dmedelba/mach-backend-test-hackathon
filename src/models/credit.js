@@ -1,0 +1,1 @@
+class Credit {\n  constructor({ amount, installments }) {\n    this.amount = amount;\n    this.installments = installments;\n  }\n\n  calculateMonthlyPayment() {\n    // Lógica para calcular el pago mensual\n  }\n\n  calculateTotalInterest() {\n    // Lógica para calcular el interés total\n  }\n}\n\nmodule.exports = Credit;
